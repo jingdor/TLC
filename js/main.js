@@ -1,6 +1,5 @@
 requirejs.config({
     //By default load any module IDs from js/lib
-    baseUrl: 'js/application',
     paths: {
         app: 'app',
         jquery:'bower_components/jquery/dist/jquery',
