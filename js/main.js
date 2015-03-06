@@ -1,7 +1,6 @@
 requirejs.config({
-    //By default load any module IDs from js/lib
+    baseUrl: '/TLC/',
     paths: {
-        app: 'app',
         jquery:'bower_components/jquery/dist/jquery',
         echarts:'bower_components/echarts/build/dist/echarts-all',
         underscore:'bower_components/underscore/underscore',
