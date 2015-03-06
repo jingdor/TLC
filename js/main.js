@@ -3,10 +3,10 @@ requirejs.config({
     baseUrl: 'js/application',
     paths: {
         app: 'app',
-        jquery:'/bower_components/jquery/dist/jquery',
-        echarts:'/bower_components/echarts/build/dist/echarts-all',
-        underscore:'/bower_components/underscore/underscore',
-        lodash:'/bower_components/lodash/lodash'
+        jquery:'bower_components/jquery/dist/jquery',
+        echarts:'bower_components/echarts/build/dist/echarts-all',
+        underscore:'bower_components/underscore/underscore',
+        lodash:'bower_components/lodash/lodash'
     }
 });
 requirejs(["jquery",'underscore','lodash','echarts'], function($,_,lodash) {
